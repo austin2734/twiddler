@@ -2,12 +2,104 @@
 html, body, #app {
   min-height: 100vh;
   margin: 0;
+
 }
+
 
 /* Continue building out the CSS styling for your Twiddler app below! We got you started by
 providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
 
+/*
+###############################################################################################################################################
+App
+###############################################################################################################################################
+*/
+
 #app {
+  background-image: url(/assets/backgroundImage/background.png);
   background-color: green;
-  color: yellow;
+  color: peru;
 }
+
+#feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+
+h1 {
+
+  font-family: 'Federo', sans-serif;
+  color: #588c7e;
+  margin: 0;
+  border-radius: 0cm;
+  text-align: center;
+
+}
+
+#update-feed {
+  background-image: linear-gradient(to right, #3b3a30, #484f4f);
+  color: peru;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  border: #587e76;
+  border-style: outset;
+  padding: 5px;
+
+}
+
+.tweet {
+  background-image: linear-gradient(to right, #3b3a30, #484f4f);
+  width: 25%;
+  border: #587e76;
+  border-style: outset;
+  height: max-content;
+  padding: 5px;
+}
+
+
+.username {
+  color: peru;
+  font-weight: bold;
+  text-align: left;
+  padding: 3px;
+
+}
+
+.timestamp {
+  font-style: oblique;
+  color: #77a8a8;
+  padding: 3px;
+
+}
+
+
+.message {
+ font-family:'Times New Roman', Times, serif;
+}
+
+
+.icon {
+  background-color: aliceblue;
+  color: #588c7e;
+  border-style: outset;
+}
+
+.icon:hover {
+  background-color:aliceblue;
+  color: peru;
+};
+
+
+
+
+
